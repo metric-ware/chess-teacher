@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#262522">
+  <title>ChessPrep</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-button open-lines" id="open-lines" type="button" aria-label="Show the lines">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <img class="logo" src="assets/logo.svg" alt="">
+    <span class="app-name">ChessPrep</span>
+    <span class="tagline">Play Stockfish's moves from your Stress Tests</span>
+    <span class="summary" id="summary"></span>
+  </header>
+
+  <div class="layout">
+    <aside class="lines" id="lines" aria-label="Lines">
+      <div class="lines-head">
+        <span class="panel-title">Lines</span>
+        <button class="icon-button close-lines" id="close-lines" type="button" aria-label="Close the lines">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="sections" id="sections"></div>
+      <div class="lines-note" id="lines-note"></div>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+
+    <main class="center">
+      <div class="stage" id="stage">
+        <div class="player" id="player-top"></div>
+        <div class="board-row">
+          <div class="evalbar" id="evalbar" hidden>
+            <div class="evalbar-white"></div>
+            <span class="evalbar-text"></span>
+          </div>
+          <div id="board"></div>
+        </div>
+        <div class="player" id="player-bottom"></div>
+        <div class="nav" id="nav">
+          <button class="nav-button" type="button" data-go="start" title="Start (Home)" aria-label="Start">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="bar" d="M6 5v14"/><path d="M19 5.5v13L9 12z"/></svg>
+          </button>
+          <button class="nav-button" type="button" data-go="back" title="Back (←)" aria-label="Back">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 5.5v13L7 12z"/></svg>
+          </button>
+          <button class="nav-button" type="button" data-go="forward" title="Forward (→)" aria-label="Forward">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5.5v13L17 12z"/></svg>
+          </button>
+          <button class="nav-button" type="button" data-go="end" title="Back to the game (End)" aria-label="Back to the game">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.5v13L15 12z"/><path class="bar" d="M18 5v14"/></svg>
+          </button>
+          <button class="flip-button" type="button" id="flip" title="Flip the board">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="bar" d="M8 19V5M4.5 8.5 8 5l3.5 3.5M16 5v14M12.5 15.5 16 19l3.5-3.5"/></svg>
+            Flip
+          </button>
+        </div>
+        <div class="toggles">
+          <label class="toggle">
+            <input type="checkbox" id="show-classes" autocomplete="off">
+            <span class="box" aria-hidden="true"></span>
+            Show move classifications
+          </label>
+          <label class="toggle">
+            <input type="checkbox" id="show-eval" autocomplete="off">
+            <span class="box" aria-hidden="true"></span>
+            Show eval bar
+          </label>
+        </div>
+      </div>
+      <div class="empty" id="empty" hidden></div>
+    </main>
+
+    <aside class="side">
+      <div class="line-head">
+        <div class="line-title" id="line-title"></div>
+        <div class="line-sub" id="line-sub"></div>
+      </div>
+      <div class="card status" id="status"></div>
+      <div class="actions" id="actions"></div>
+      <div class="moves-head">Moves</div>
+      <div class="moves" id="moves"></div>
+    </aside>
+  </div>
+
+  <input type="file" id="picker" accept=".json,application/json" multiple hidden>
+
+  <script src="js/chess.js"></script>
+  <script src="js/openings.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <circle cx="128" cy="128" r="127" fill="#fa412d"/>
+  <g transform="translate(128.00 131.75)">
+    <g transform="translate(0 7)" fill="#7d2016" stroke="#7d2016" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.88)"><g transform="translate(-37 0) scale(1.0)"><path d="M -25.00 -43.00 A 25 25 0 1 1 17.68 -25.32 Q 0 -11.32 0 14 L 0 20" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g><g transform="translate(37 0) scale(1.0)"><path d="M -25.00 -43.00 A 25 25 0 1 1 17.68 -25.32 Q 0 -11.32 0 14 L 0 20" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g></g></g>
+    <g fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.88)"><g transform="translate(-37 0) scale(1.0)"><path d="M -25.00 -43.00 A 25 25 0 1 1 17.68 -25.32 Q 0 -11.32 0 14 L 0 20" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g><g transform="translate(37 0) scale(1.0)"><path d="M -25.00 -43.00 A 25 25 0 1 1 17.68 -25.32 Q 0 -11.32 0 14 L 0 20" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g></g></g>
+  </g>
+</svg>
