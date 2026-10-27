@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <circle cx="128" cy="128" r="127" fill="#26c2a3"/>
-  <g transform="translate(128.00 132.00)">
-    <g transform="translate(0 7)" fill="#136152" stroke="#136152" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.95)"><g transform="translate(-31 0) scale(1.0)"><path d="M 0 -68 L 0 18" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g><g transform="translate(31 0) scale(1.0)"><path d="M 0 -68 L 0 18" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g></g></g>
-    <g fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.95)"><g transform="translate(-31 0) scale(1.0)"><path d="M 0 -68 L 0 18" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g><g transform="translate(31 0) scale(1.0)"><path d="M 0 -68 L 0 18" fill="none" stroke-width="30"/><circle cx="0" cy="57" r="17.5" stroke="none"/></g></g></g>
-  </g>
-</svg>
