@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "saved": 1793138759,
+  "engine": "Stockfish 19",
+  "depth": 22,
+  "side": "black",
+  "start": 6,
+  "moves": [
+    {
+      "uci": "e2e4",
+      "san": "e4"
+    },
+    {
+      "uci": "e7e5",
+      "san": "e5"
+    },
+    {
+      "uci": "g1f3",
+      "san": "Nf3"
+    },
+    {
+      "uci": "b8c6",
+      "san": "Nc6"
+    },
+    {
+      "uci": "d2d4",
+      "san": "d4"
+    },
+    {
+      "uci": "f7f5",
+      "san": "f5"
+    },
+    {
+      "uci": "f3e5",
+      "san": "Nxe5"
+    },
+    {
+      "uci": "f5e4",
+      "san": "fxe4"
+    },
+    {
+      "uci": "e5c6",
+      "san": "Nxc6"
+    },
+    {
+      "uci": "d7c6",
+      "san": "dxc6"
+    },
+    {
+      "uci": "d1h5",
+      "san": "Qh5+"
+    },
+    {
+      "uci": "e8e7",
+      "san": "Ke7"
+    },
+    {
+      "uci": "h5e5",
+      "san": "Qe5+"
+    },
+    {
+      "uci": "e7f7",
+      "san": "Kf7",
+      "class": "blunder"
+    },
+    {
+      "uci": "f1c4",
+      "san": "Bc4+"
+    }
+  ],
+  "lost_at": 13,
+  "result": "Blunder: 7... Kf7??",
+  "pgn": "[Event \"Stress Test\"]\n[Site \"ChessDetective\"]\n[Date \"2026.10.27\"]\n[White \"Stockfish 19 (depth 22)\"]\n[Black \"You\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. d4 f5 {The test starts here} 4. Nxe5 fxe4 5. Nxc6 dxc6 6.\nQh5+ Ke7 7. Qe5+ Kf7?? {Blunder, the test is over. Best: 7... Be6} 8. Bc4+ *\n",
+  "evals": {
+    "r1bq1bnr/ppp1k1pp/2p5/4Q3/3Pp3/8/PPP2PPP/RNB1KB1R b KQ -": {
+      "depth": 22,
+      "score": {
+        "cp": -273
+      },
+      "pv": [
+        "c8e6",
+        "c1g5",
+        "g8f6",
+        "f1c4",
+        "d8d6",
+        "c4e6",
+        "d6e6",
+        "e5c7",
+        "e6d7",
+        "c7g3",
+        "e7f7",
+        "b1d2",
+        "f8d6",
+        "g3b3",
+        "f7g6",
+        "g5f6",
+        "g7f6",
+        "e1c1",
+        "d6f4",
+        "g2g3",
+        "d7e7"
+      ]
+    },
+    "r1bq1bnr/ppp1k1pp/2p5/7Q/3Pp3/8/PPP2PPP/RNB1KB1R w KQ -": {
+      "depth": 22,
+      "score": {
+        "cp": 292
+      },
+      "pv": [
+        "h5e5",
+        "c8e6",
+        "c1g5",
+        "g8f6",
+        "f1c4",
+        "d8d6",
+        "c4e6",
+        "d6e6",
+        "e5c7",
+        "e6d7",
+        "c7g3",
+        "e7f7",
+        "b1d2",
+        "a8e8",
+        "e1c1",
+        "d7e6",
+        "c1b1",
+        "f8d6",
+        "g3h4",
+        "h7h5",
+        "h2h3",
+        "e6f5",
+        "d2c4",
+        "d6c7",
+        "c4e3",
+        "f5e6",
+        "h1f1",
+        "f7g6",
+        "f2f4",
+        "e4f3",
+        "g2f3",
+        "f6d5",
+        "e3d5",
+        "e6d5"
+      ]
+    },
+    "r1bq1bnr/ppp2kpp/2p5/4Q3/3Pp3/8/PPP2PPP/RNB1KB1R w KQ -": {
+      "depth": 22,
+      "score": {
+        "cp": 906
+      },
+      "pv": [
+        "f1c4",
+        "d8d5",
+        "e5c7",
+        "f8e7",
+        "c4d5",
+        "c6d5",
+        "e1g1",
+        "g8f6",
+        "c1f4",
+        "h8d8",
+        "f1e1",
+        "h7h5",
+        "b1c3",
+        "h5h4",
+        "f2f3",
+        "f6e8"
+      ]
+    },
+    "r1bqkbnr/ppp3pp/2p5/7Q/3Pp3/8/PPP2PPP/RNB1KB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -228
+      },
+      "pv": [
+        "e8d7",
+        "h5g4",
+        "d7e8",
+        "g4e4",
+        "d8e7",
+        "e4e7",
+        "g8e7",
+        "b1d2",
+        "c8f5",
+        "c2c3",
+        "e7d5",
+        "d2f3",
+        "f8d6",
+        "f1e2",
+        "a7a5",
+        "e1g1",
+        "e8f7",
+        "f3e5",
+        "d6e5",
+        "d4e5",
+        "a8e8",
+        "f2f4",
+        "h7h5",
+        "c1d2",
+        "a5a4",
+        "a1d1",
+        "g7g6",
+        "g1f2"
+      ]
+    },
+    "r1bqkbnr/ppp3pp/2p5/8/3Pp3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 227
+      },
+      "pv": [
+        "d1h5",
+        "e8d7",
+        "h5g4",
+        "d7e8",
+        "g4e4",
+        "d8e7",
+        "e4e7",
+        "g8e7",
+        "b1d2",
+        "c8f5",
+        "c2c3",
+        "e7d5",
+        "d2f3",
+        "f8d6",
+        "f1e2",
+        "e8f7",
+        "f3e5",
+        "d6e5",
+        "d4e5",
+        "a8e8",
+        "f2f4",
+        "h7h5",
+        "e1f2",
+        "e8a8"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2N5/8/3Pp3/8/PPP2PPP/RNBQKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -227
+      },
+      "pv": [
+        "d7c6",
+        "d1h5",
+        "e8d7",
+        "h5g4",
+        "d7e8",
+        "g4e4",
+        "d8e7",
+        "e4e7",
+        "g8e7",
+        "b1d2",
+        "c8f5",
+        "c2c3",
+        "e7d5",
+        "d2f3",
+        "f8d6",
+        "f1e2",
+        "a7a5",
+        "e1g1",
+        "e8f7",
+        "f3e5",
+        "d6e5",
+        "d4e5",
+        "a8b8"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2n5/4N3/3Pp3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 227
+      },
+      "pv": [
+        "e5c6",
+        "d7c6",
+        "d1h5",
+        "e8d7",
+        "h5g4",
+        "d7e8",
+        "g4e4",
+        "d8e7",
+        "e4e7",
+        "g8e7",
+        "c2c3",
+        "e7d5",
+        "b1d2",
+        "c8f5",
+        "d2f3",
+        "f8d6",
+        "f1e2",
+        "a7a5",
+        "e1g1",
+        "e8f7",
+        "f3e5",
+        "d6e5",
+        "d4e5",
+        "a8e8",
+        "f2f4",
+        "h7h5",
+        "c1d2",
+        "d5e7",
+        "d2e3",
+        "g7g6",
+        "a1d1"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2n5/4Np2/3PP3/8/PPP2PPP/RNBQKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -241
+      },
+      "pv": [
+        "f5e4",
+        "b1c3",
+        "f8b4",
+        "d1h5",
+        "g7g6",
+        "e5c6",
+        "g6h5",
+        "c6d8",
+        "e8d8",
+        "f1e2",
+        "c7c6",
+        "e1g1",
+        "d7d5",
+        "f2f3",
+        "e4f3",
+        "e2f3",
+        "c8g4",
+        "c1g5",
+        "d8d7",
+        "f3g4",
+        "h5g4",
+        "f1f7",
+        "g8e7",
+        "a1f1"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2n5/4pp2/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 236
+      },
+      "pv": [
+        "f3e5",
+        "f5e4",
+        "b1c3",
+        "f8b4",
+        "d1h5",
+        "g7g6",
+        "e5c6",
+        "g6h5",
+        "c6d8",
+        "e8d8",
+        "f1e2",
+        "d7d5",
+        "f2f3",
+        "e4f3",
+        "e2f3",
+        "c7c6",
+        "e1g1",
+        "c8g4",
+        "c1g5",
+        "d8d7",
+        "f3g4",
+        "h5g4",
+        "f1f7",
+        "g8e7",
+        "a1f1",
+        "a8e8",
+        "g5h6",
+        "d7c8",
+        "c3d1",
+        "e7g6"
+      ]
+    }
+  }
+}

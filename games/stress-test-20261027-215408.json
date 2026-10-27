@@ -1,0 +1,351 @@
+{
+  "version": 1,
+  "saved": 1793138048,
+  "engine": "Stockfish 19",
+  "depth": 22,
+  "side": "black",
+  "start": 5,
+  "moves": [
+    {
+      "uci": "e2e4",
+      "san": "e4"
+    },
+    {
+      "uci": "e7e5",
+      "san": "e5"
+    },
+    {
+      "uci": "g1f3",
+      "san": "Nf3"
+    },
+    {
+      "uci": "b8c6",
+      "san": "Nc6"
+    },
+    {
+      "uci": "d2d4",
+      "san": "d4"
+    },
+    {
+      "uci": "f7f6",
+      "san": "f6",
+      "class": "mistake"
+    },
+    {
+      "uci": "f1c4",
+      "san": "Bc4"
+    },
+    {
+      "uci": "g8e7",
+      "san": "Nge7",
+      "class": "mistake"
+    },
+    {
+      "uci": "d4e5",
+      "san": "dxe5"
+    },
+    {
+      "uci": "f6e5",
+      "san": "fxe5"
+    },
+    {
+      "uci": "b1c3",
+      "san": "Nc3"
+    },
+    {
+      "uci": "d7d6",
+      "san": "d6",
+      "class": "mistake"
+    },
+    {
+      "uci": "f3g5",
+      "san": "Ng5"
+    }
+  ],
+  "lost_at": 11,
+  "result": "Mistake: 6... d6? · played on after 2 errors",
+  "pgn": "[Event \"Stress Test\"]\n[Site \"ChessDetective\"]\n[Date \"2026.10.27\"]\n[White \"Stockfish 19 (depth 22)\"]\n[Black \"You\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. d4 {The test starts here} 3... f6? {Mistake, played on.\nBest: 3... exd4} 4. Bc4 Nge7? {Mistake, played on. Best: 4... d6} 5. dxe5 fxe5\n6. Nc3 d6? {Mistake, the test is over. Best: 6... Na5} 7. Ng5 *\n",
+  "evals": {
+    "r1bqkb1r/ppp1n1pp/2np4/4p3/2B1P3/2N2N2/PPP2PPP/R1BQK2R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 717
+      },
+      "pv": [
+        "f3g5",
+        "d6d5",
+        "e4d5",
+        "c6d4",
+        "e1g1",
+        "e7g6",
+        "c3b5",
+        "f8d6",
+        "b5d4",
+        "e5d4",
+        "f1e1",
+        "e8f8",
+        "g5e6",
+        "c8e6",
+        "d5e6",
+        "d8f6",
+        "d1h5",
+        "d6e7",
+        "e1e4",
+        "f8g8",
+        "h2h4",
+        "a8d8"
+      ]
+    },
+    "r1bqkb1r/ppppn1pp/2n2p2/4P3/2B1P3/5N2/PPP2PPP/RNBQK2R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -350
+      },
+      "pv": [
+        "c6e5",
+        "f3e5",
+        "f6e5",
+        "d1f3",
+        "d7d5",
+        "e4d5",
+        "e7f5",
+        "c4b5",
+        "e8f7",
+        "e1g1",
+        "g7g6",
+        "b1c3",
+        "f7g7",
+        "c1d2",
+        "f8d6",
+        "b5d3",
+        "h8f8",
+        "a1e1",
+        "f5d4",
+        "f3e3",
+        "h7h5"
+      ]
+    },
+    "r1bqkb1r/ppppn1pp/2n2p2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 357
+      },
+      "pv": [
+        "d4e5",
+        "c6e5",
+        "f3e5",
+        "f6e5",
+        "d1f3",
+        "d7d5",
+        "e4d5",
+        "e7f5",
+        "c4b5",
+        "c8d7",
+        "f3f5",
+        "d7b5",
+        "b1c3",
+        "b5d7",
+        "f5h5",
+        "g7g6",
+        "h5e5",
+        "d8e7",
+        "c1f4",
+        "e8c8",
+        "e1c1",
+        "e7e5",
+        "f4e5",
+        "h8g8",
+        "f2f3",
+        "d8e8",
+        "e5d4",
+        "f8d6"
+      ]
+    },
+    "r1bqkb1r/ppppn1pp/2n5/4p3/2B1P3/2N2N2/PPP2PPP/R1BQK2R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -391
+      },
+      "pv": [
+        "c6a5",
+        "c4d5",
+        "e7d5",
+        "d1d5",
+        "a5c6",
+        "c1g5",
+        "f8e7",
+        "f3e5",
+        "h8f8",
+        "h2h4",
+        "e7f6",
+        "e5c6",
+        "b7c6",
+        "d5a5",
+        "h7h6",
+        "g5f6",
+        "d8f6",
+        "f2f3",
+        "f6d6",
+        "e1g1",
+        "e8f7",
+        "a1d1",
+        "d6g3",
+        "c3e2",
+        "g3h4",
+        "a5c7",
+        "f7g8"
+      ]
+    },
+    "r1bqkb1r/ppppn1pp/2n5/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 394
+      },
+      "pv": [
+        "b1c3",
+        "c6a5",
+        "c4d5",
+        "e7d5",
+        "d1d5",
+        "a5c6",
+        "c1g5",
+        "f8e7",
+        "f3e5",
+        "h8f8",
+        "h2h4",
+        "e7g5",
+        "h4g5",
+        "d8e7",
+        "e5f3",
+        "d7d6",
+        "h1h7",
+        "c8e6",
+        "d5d2",
+        "e8c8",
+        "e1c1",
+        "f8f7"
+      ]
+    },
+    "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -11
+      },
+      "pv": [
+        "e5d4",
+        "f3d4",
+        "g8f6",
+        "b1c3",
+        "f8b4",
+        "d4c6",
+        "b7c6",
+        "f1d3",
+        "e8g8",
+        "e1g1",
+        "d7d5",
+        "e4d5",
+        "c6d5",
+        "h2h3",
+        "h7h6",
+        "d1f3",
+        "f8e8",
+        "c1f4",
+        "b4c3",
+        "b2c3",
+        "c7c5",
+        "a1d1"
+      ]
+    },
+    "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 23
+      },
+      "pv": [
+        "f1b5",
+        "g8f6",
+        "e1g1",
+        "f6e4",
+        "f1e1",
+        "e4d6",
+        "f3e5",
+        "c6e5",
+        "e1e5",
+        "f8e7",
+        "b5f1",
+        "e8g8",
+        "d2d4",
+        "e7f6",
+        "e5e1",
+        "f8e8",
+        "c1f4",
+        "e8e1",
+        "d1e1",
+        "d6e8",
+        "e1e3"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2n2p2/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -196
+      },
+      "pv": [
+        "d7d6",
+        "h2h3",
+        "g7g6",
+        "b1c3",
+        "c6a5",
+        "c4e2",
+        "f8h6",
+        "e1g1",
+        "a5c6",
+        "e2c4",
+        "h6c1",
+        "a1c1",
+        "e8f8",
+        "d1d2",
+        "c6d4",
+        "f3d4",
+        "e5d4",
+        "d2d4",
+        "f8g7",
+        "c1d1",
+        "g8e7",
+        "d4d2",
+        "d8e8"
+      ]
+    },
+    "r1bqkbnr/pppp2pp/2n2p2/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 187
+      },
+      "pv": [
+        "f1c4",
+        "d7d6",
+        "e1g1",
+        "g7g6",
+        "h2h3",
+        "c6a5",
+        "c4e2",
+        "g8h6",
+        "b1c3",
+        "h6f7",
+        "d4d5",
+        "c7c5",
+        "a2a3",
+        "b7b6",
+        "b2b4",
+        "a5b7",
+        "e2b5",
+        "c8d7",
+        "b5c6",
+        "d8c8",
+        "b4b5",
+        "a8b8",
+        "c1e3"
+      ]
+    }
+  }
+}

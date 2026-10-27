@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "saved": 1793136951,
+  "engine": "Stockfish 19",
+  "depth": 22,
+  "side": "black",
+  "start": 9,
+  "moves": [
+    {
+      "uci": "e2e4",
+      "san": "e4"
+    },
+    {
+      "uci": "e7e5",
+      "san": "e5"
+    },
+    {
+      "uci": "g1f3",
+      "san": "Nf3"
+    },
+    {
+      "uci": "b8c6",
+      "san": "Nc6"
+    },
+    {
+      "uci": "d2d4",
+      "san": "d4"
+    },
+    {
+      "uci": "e5d4",
+      "san": "exd4"
+    },
+    {
+      "uci": "f3d4",
+      "san": "Nxd4"
+    },
+    {
+      "uci": "f8c5",
+      "san": "Bc5"
+    },
+    {
+      "uci": "c1e3",
+      "san": "Be3"
+    },
+    {
+      "uci": "d8e7",
+      "san": "Qe7"
+    },
+    {
+      "uci": "b1c3",
+      "san": "Nc3"
+    },
+    {
+      "uci": "d7d6",
+      "san": "d6",
+      "class": "blunder"
+    },
+    {
+      "uci": "c3d5",
+      "san": "Nd5"
+    },
+    {
+      "uci": "e7d8",
+      "san": "Qd8"
+    },
+    {
+      "uci": "d4b5",
+      "san": "Nb5"
+    }
+  ],
+  "lost_at": null,
+  "result": "Unfinished · played on after 1 error",
+  "pgn": "[Event \"Stress Test\"]\n[Site \"ChessDetective\"]\n[Date \"2026.10.27\"]\n[White \"Stockfish 19 (depth 22)\"]\n[Black \"You\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 {The test starts here} 5...\nQe7 6. Nc3 d6?? {Blunder, played on. Best: 6... Nxd4} 7. Nd5 Qd8 8. Nb5 *\n",
+  "evals": {
+    "r1b1k1nr/ppp1qppp/2np4/2b5/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 469
+      },
+      "pv": [
+        "c3d5",
+        "e7d8",
+        "d4b5",
+        "e8f8",
+        "e3c5",
+        "d6c5",
+        "d5c7",
+        "d8d1",
+        "a1d1",
+        "a8b8",
+        "f1c4",
+        "a7a6",
+        "b5d6",
+        "g8h6",
+        "f2f3",
+        "f8e7",
+        "d6c8",
+        "h8c8",
+        "c7d5",
+        "e7e8",
+        "d5b6",
+        "c8d8",
+        "c4e2"
+      ]
+    },
+    "r1b1k1nr/ppp1qppp/2np4/2bN4/3NP3/4B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -469
+      },
+      "pv": [
+        "e7d8",
+        "d4b5",
+        "e8f8",
+        "e3c5",
+        "d6c5",
+        "d5c7",
+        "d8d1",
+        "a1d1",
+        "a8b8",
+        "f1c4",
+        "f8e7",
+        "e1g1",
+        "g8f6",
+        "e4e5",
+        "f6e8",
+        "c7d5",
+        "e7f8",
+        "f2f4",
+        "c8g4",
+        "d1e1",
+        "a7a6",
+        "b5c3",
+        "b7b5",
+        "c4d3",
+        "g7g6",
+        "d5e3",
+        "h7h5",
+        "e3g4",
+        "h5g4",
+        "c3e4",
+        "c5c4",
+        "d3e2",
+        "c6b4",
+        "e2d1",
+        "b4a2",
+        "f4f5",
+        "g6f5",
+        "f1f5",
+        "e8g7",
+        "f5f6",
+        "g7h5",
+        "f6f2",
+        "c4c3",
+        "b2c3",
+        "b8e8"
+      ]
+    },
+    "r1b1k1nr/ppppqppp/2n5/2b5/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -66
+      },
+      "pv": [
+        "c6d4",
+        "e3d4",
+        "g8f6",
+        "f1e2",
+        "e7d6",
+        "c3b5",
+        "d6b6",
+        "e4e5",
+        "f6e4",
+        "a2a4",
+        "a7a6",
+        "a4a5",
+        "b6c6",
+        "b5c3",
+        "e4c3",
+        "b2c3",
+        "e8g8",
+        "e1g1",
+        "d7d6",
+        "e2f3",
+        "c6b5",
+        "d4c5",
+        "b5c5",
+        "e5d6",
+        "f8d8",
+        "f1e1",
+        "c7d6",
+        "d1d4",
+        "c5c7",
+        "f3d5",
+        "c8e6",
+        "d5e6",
+        "f7e6",
+        "e1e6",
+        "a8c8",
+        "e6e3",
+        "d8f8",
+        "h2h4"
+      ]
+    },
+    "r1b1k1nr/ppppqppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 50
+      },
+      "pv": [
+        "b1c3",
+        "c6d4",
+        "e3d4",
+        "g8f6",
+        "f1e2",
+        "d7d6",
+        "d1d3",
+        "c8d7",
+        "e1c1",
+        "e8c8",
+        "f2f4",
+        "c5d4",
+        "d3d4",
+        "c8b8",
+        "e2f3",
+        "a7a6",
+        "h1e1",
+        "d7c8",
+        "a2a4",
+        "h8e8",
+        "a4a5",
+        "h7h6",
+        "b2b4",
+        "c7c6",
+        "c3a4",
+        "g7g5",
+        "g2g3",
+        "g5f4",
+        "g3f4",
+        "h6h5"
+      ]
+    },
+    "r1bqk1nr/ppp2ppp/2np4/1NbN4/4P3/4B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -496
+      },
+      "pv": [
+        "e8f8",
+        "e3c5",
+        "d6c5",
+        "d5c7",
+        "d8d1",
+        "a1d1",
+        "a8b8",
+        "f1c4",
+        "f8e7",
+        "e1g1",
+        "g8f6",
+        "e4e5",
+        "f6e8",
+        "c7d5",
+        "e7f8",
+        "f2f4",
+        "a7a6",
+        "b5c3",
+        "b7b5",
+        "c4d3",
+        "c8f5"
+      ]
+    },
+    "r1bqk1nr/ppp2ppp/2np4/2bN4/3NP3/4B3/PPP2PPP/R2QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 488
+      },
+      "pv": [
+        "d4b5",
+        "e8f8",
+        "e3c5",
+        "d6c5",
+        "d5c7",
+        "d8d1",
+        "a1d1",
+        "a8b8",
+        "f1c4",
+        "f8e7",
+        "e1g1",
+        "g8f6",
+        "e4e5",
+        "f6e8",
+        "c7d5",
+        "e7f8",
+        "f2f4",
+        "c8g4",
+        "d1e1",
+        "g4c8",
+        "b5c3"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -20
+      },
+      "pv": [
+        "d8f6",
+        "c2c3",
+        "g8e7",
+        "f1c4",
+        "c6e5",
+        "c4e2",
+        "f6g6",
+        "e1g1",
+        "d7d6",
+        "f2f3",
+        "e8g8",
+        "b1d2",
+        "d6d5",
+        "a2a4",
+        "e5c6",
+        "a1c1",
+        "c5b6",
+        "g1h1",
+        "f8d8",
+        "b2b4",
+        "b6d4",
+        "c3d4",
+        "c6b4",
+        "d1b3"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 15
+      },
+      "pv": [
+        "d4b3",
+        "c5b6",
+        "b1c3",
+        "g8f6",
+        "c1g5",
+        "h7h6",
+        "g5h4",
+        "d7d6",
+        "d1e2",
+        "c8e6",
+        "c3d5",
+        "g7g5",
+        "h4g3",
+        "e8g8",
+        "e1c1",
+        "f8e8",
+        "e2f3",
+        "e6d5",
+        "e4d5",
+        "c6e5",
+        "f3f5",
+        "f6h5",
+        "f1b5",
+        "c7c6",
+        "b5a4",
+        "h5g7"
+      ]
+    }
+  }
+}

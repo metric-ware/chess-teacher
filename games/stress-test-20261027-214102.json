@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "saved": 1793137262,
+  "engine": "Stockfish 19",
+  "depth": 22,
+  "side": "black",
+  "start": 9,
+  "moves": [
+    {
+      "uci": "e2e4",
+      "san": "e4"
+    },
+    {
+      "uci": "e7e5",
+      "san": "e5"
+    },
+    {
+      "uci": "g1f3",
+      "san": "Nf3"
+    },
+    {
+      "uci": "b8c6",
+      "san": "Nc6"
+    },
+    {
+      "uci": "d2d4",
+      "san": "d4"
+    },
+    {
+      "uci": "e5d4",
+      "san": "exd4"
+    },
+    {
+      "uci": "f3d4",
+      "san": "Nxd4"
+    },
+    {
+      "uci": "f8c5",
+      "san": "Bc5"
+    },
+    {
+      "uci": "c1e3",
+      "san": "Be3"
+    },
+    {
+      "uci": "d8e7",
+      "san": "Qe7"
+    },
+    {
+      "uci": "b1c3",
+      "san": "Nc3"
+    },
+    {
+      "uci": "a7a6",
+      "san": "a6",
+      "class": "blunder"
+    },
+    {
+      "uci": "c3d5",
+      "san": "Nd5"
+    },
+    {
+      "uci": "e7d6",
+      "san": "Qd6"
+    },
+    {
+      "uci": "d4f5",
+      "san": "Nf5"
+    }
+  ],
+  "lost_at": null,
+  "result": "Unfinished · played on after 1 error",
+  "pgn": "[Event \"Stress Test\"]\n[Site \"ChessDetective\"]\n[Date \"2026.10.27\"]\n[White \"Stockfish 19 (depth 22)\"]\n[Black \"You\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 {The test starts here} 5...\nQe7 6. Nc3 a6?? {Blunder, played on. Best: 6... Nxd4} 7. Nd5 Qd6 8. Nf5 *\n",
+  "evals": {
+    "r1b1k1nr/1ppp1ppp/p1nq4/2bN1N2/4P3/4B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -827
+      },
+      "pv": [
+        "d6e5",
+        "e3c5",
+        "e8d8",
+        "f5d6",
+        "c7d6",
+        "c5b6",
+        "d8e8",
+        "d5c7",
+        "e8e7",
+        "c7a8",
+        "e5e4",
+        "d1e2",
+        "e4e2",
+        "f1e2",
+        "d6d5",
+        "e1c1",
+        "d7d6",
+        "a8c7",
+        "g8f6",
+        "e2f3",
+        "c8e6",
+        "h1e1"
+      ]
+    },
+    "r1b1k1nr/1ppp1ppp/p1nq4/2bN4/3NP3/4B3/PPP2PPP/R2QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 833
+      },
+      "pv": [
+        "d4f5",
+        "d6f8",
+        "d5c7",
+        "e8d8",
+        "c7a8",
+        "g8f6",
+        "c2c3",
+        "c5e3",
+        "f2e3",
+        "d7d5",
+        "e4d5",
+        "c6a5",
+        "f5g3",
+        "f8c5",
+        "f1e2",
+        "h8e8",
+        "d1d4",
+        "c5d4",
+        "c3d4",
+        "e8e3",
+        "a8b6"
+      ]
+    },
+    "r1b1k1nr/1pppqppp/p1n5/2b5/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 601
+      },
+      "pv": [
+        "c3d5",
+        "e7d8",
+        "d4c6",
+        "d7c6",
+        "e3c5",
+        "c6d5",
+        "e4d5",
+        "d8g5",
+        "d1e2",
+        "e8d8",
+        "h2h4",
+        "g5g4",
+        "e2g4",
+        "c8g4",
+        "f2f3",
+        "g4f5",
+        "c5f8",
+        "g8e7",
+        "f8g7",
+        "h8g8",
+        "g7f8"
+      ]
+    },
+    "r1b1k1nr/1pppqppp/p1n5/2bN4/3NP3/4B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -622
+      },
+      "pv": [
+        "e7d8",
+        "d4c6",
+        "d7c6",
+        "e3c5",
+        "c6d5",
+        "e4d5",
+        "b7b6",
+        "d1e2",
+        "g8e7",
+        "c5b4",
+        "a6a5",
+        "b4a3",
+        "c8a6",
+        "e2e3",
+        "a6f1",
+        "e1c1",
+        "b6b5",
+        "a3c5",
+        "f1g2",
+        "h1e1",
+        "h8g8"
+      ]
+    },
+    "r1b1k1nr/ppppqppp/2n5/2b5/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -54
+      },
+      "pv": [
+        "c6d4",
+        "e3d4",
+        "g8f6",
+        "f1e2",
+        "e7d6",
+        "c3b5",
+        "d6b6",
+        "e4e5",
+        "f6e4",
+        "f2f3",
+        "a7a6",
+        "b5c7",
+        "b6c7",
+        "f3e4",
+        "e8g8",
+        "d1d2",
+        "c5d4",
+        "d2d4",
+        "b7b5",
+        "e1c1",
+        "f8e8",
+        "d4d5",
+        "c8b7",
+        "d5d7",
+        "a8c8",
+        "d7c7",
+        "c8c7",
+        "e5e6"
+      ]
+    },
+    "r1b1k1nr/ppppqppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 58
+      },
+      "pv": [
+        "b1c3",
+        "c6d4",
+        "e3d4",
+        "g8f6",
+        "f1e2",
+        "d7d6",
+        "d1d3",
+        "c8d7",
+        "d4c5",
+        "d6c5",
+        "f2f4",
+        "e8c8",
+        "e4e5",
+        "f6g4",
+        "d3g3",
+        "g4h6",
+        "g3g7",
+        "h6f5",
+        "g7f6",
+        "e7f6",
+        "e5f6",
+        "f5d4",
+        "e2d3",
+        "c5c4",
+        "d3e4",
+        "d7c6",
+        "e1g1",
+        "c6e4",
+        "c3e4",
+        "d4c2",
+        "a1c1",
+        "c2e3"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -19
+      },
+      "pv": [
+        "d8f6",
+        "c2c3",
+        "g8e7",
+        "f1c4",
+        "b7b6",
+        "e1g1",
+        "e8g8",
+        "c4e2",
+        "c8b7",
+        "f2f4",
+        "f8e8",
+        "e2f3",
+        "c5d4",
+        "c3d4",
+        "e7f5",
+        "e4e5",
+        "f5e3",
+        "e5f6",
+        "e3d1",
+        "f1d1",
+        "c6a5",
+        "d4d5",
+        "a5c4",
+        "b2b3",
+        "c4e3",
+        "d1d2",
+        "c7c6",
+        "b1c3",
+        "e3d5",
+        "f3d5",
+        "c6d5",
+        "c3b5",
+        "a8b8",
+        "b5d6"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 18
+      },
+      "pv": [
+        "c1e3",
+        "d8f6",
+        "c2c3",
+        "d7d6",
+        "f1b5",
+        "g8e7",
+        "e1g1",
+        "e8g8",
+        "f1e1",
+        "c8d7",
+        "a2a4",
+        "a7a6",
+        "b5f1",
+        "e7g6",
+        "b2b4",
+        "c5a7",
+        "d4c6",
+        "a7e3",
+        "e1e3",
+        "d7c6",
+        "d1d4",
+        "b7b5",
+        "d4f6",
+        "g7f6",
+        "a4a5"
+      ]
+    }
+  }
+}

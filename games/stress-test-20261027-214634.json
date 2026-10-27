@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "saved": 1793137594,
+  "engine": "Stockfish 19",
+  "depth": 22,
+  "side": "black",
+  "start": 9,
+  "moves": [
+    {
+      "uci": "e2e4",
+      "san": "e4"
+    },
+    {
+      "uci": "e7e5",
+      "san": "e5"
+    },
+    {
+      "uci": "g1f3",
+      "san": "Nf3"
+    },
+    {
+      "uci": "b8c6",
+      "san": "Nc6"
+    },
+    {
+      "uci": "d2d4",
+      "san": "d4"
+    },
+    {
+      "uci": "e5d4",
+      "san": "exd4"
+    },
+    {
+      "uci": "f3d4",
+      "san": "Nxd4"
+    },
+    {
+      "uci": "f8c5",
+      "san": "Bc5"
+    },
+    {
+      "uci": "c1e3",
+      "san": "Be3"
+    },
+    {
+      "uci": "c6d4",
+      "san": "Nxd4"
+    },
+    {
+      "uci": "e3d4",
+      "san": "Bxd4"
+    },
+    {
+      "uci": "d8e7",
+      "san": "Qe7",
+      "class": "blunder"
+    },
+    {
+      "uci": "d4g7",
+      "san": "Bxg7"
+    },
+    {
+      "uci": "e7e4",
+      "san": "Qxe4+"
+    },
+    {
+      "uci": "d1e2",
+      "san": "Qe2"
+    }
+  ],
+  "lost_at": null,
+  "result": "Unfinished · played on after 1 error",
+  "pgn": "[Event \"Stress Test\"]\n[Site \"ChessDetective\"]\n[Date \"2026.10.27\"]\n[White \"Stockfish 19 (depth 22)\"]\n[Black \"You\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 {The test starts here} 5...\nNxd4 6. Bxd4 Qe7?? {Blunder, played on. Best: 6... Bxd4} 7. Bxg7 Qxe4+ 8. Qe2 *\n",
+  "evals": {
+    "r1b1k1nr/pppp1pBp/8/2b5/4q3/8/PPP1QPPP/RN2KB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -763
+      },
+      "pv": [
+        "e4e2",
+        "f1e2",
+        "d7d5",
+        "b1c3",
+        "c8e6",
+        "g7h8",
+        "e8c8",
+        "e1c1",
+        "c5f2",
+        "c1b1",
+        "f2b6",
+        "h8d4",
+        "b6d4",
+        "d1d4",
+        "g8e7",
+        "e2f3",
+        "d8d7",
+        "d4d1"
+      ]
+    },
+    "r1b1k1nr/pppp1pBp/8/2b5/4q3/8/PPP2PPP/RN1QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 753
+      },
+      "pv": [
+        "d1e2",
+        "e4e2",
+        "f1e2",
+        "d7d5",
+        "g7h8",
+        "c8e6",
+        "b1d2",
+        "f7f6",
+        "e1c1",
+        "e8e7",
+        "g2g4",
+        "g8h6",
+        "g4g5",
+        "a8h8",
+        "g5h6",
+        "c5f2",
+        "c1b1",
+        "f2e3"
+      ]
+    },
+    "r1b1k1nr/ppppqpBp/8/2b5/4P3/8/PPP2PPP/RN1QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -662
+      },
+      "pv": [
+        "g8f6",
+        "g7h8",
+        "f6e4",
+        "d1e2",
+        "c5f2",
+        "e1d1",
+        "d7d5",
+        "b1c3",
+        "e7h4",
+        "c3e4",
+        "d5e4",
+        "d1c1",
+        "f7f6",
+        "h8f6",
+        "h4f6",
+        "e2e4",
+        "f6e6",
+        "f1d3",
+        "e6e4",
+        "d3e4",
+        "c8d7",
+        "c2c3",
+        "e8c8",
+        "c1c2",
+        "h7h5",
+        "a1d1",
+        "f2e3"
+      ]
+    },
+    "r1b1k1nr/ppppqppp/8/2b5/3BP3/8/PPP2PPP/RN1QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 660
+      },
+      "pv": [
+        "d4g7",
+        "g8f6",
+        "g7h8",
+        "f6e4",
+        "d1e2",
+        "c5f2",
+        "e1d1",
+        "d7d5",
+        "b1c3",
+        "e7h4",
+        "g2g3",
+        "f2g3",
+        "c3e4",
+        "d5e4",
+        "h2g3",
+        "h4h1",
+        "d1e1",
+        "c8h3",
+        "h8f6",
+        "e8f8",
+        "f6g5"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -21
+      },
+      "pv": [
+        "d8f6",
+        "c2c3",
+        "g8e7",
+        "f1c4",
+        "c6e5",
+        "c4e2",
+        "f6g6",
+        "e1g1",
+        "d7d6",
+        "f2f3",
+        "e8g8",
+        "b1d2",
+        "d6d5",
+        "g1h1",
+        "d5e4",
+        "d2e4",
+        "c5b6",
+        "e3f4",
+        "e5c6",
+        "d4c6",
+        "g6c6",
+        "c3c4",
+        "c8f5",
+        "c4c5",
+        "b6c5",
+        "a1c1",
+        "f5e4",
+        "f3e4",
+        "c6b6"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/2n5/2b5/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 18
+      },
+      "pv": [
+        "d4c6",
+        "d8f6",
+        "d1f3",
+        "b7c6",
+        "b1c3",
+        "d7d6",
+        "c1d2",
+        "a8b8",
+        "c3a4",
+        "c5d4",
+        "f3f6",
+        "g8f6",
+        "c2c3",
+        "d4b6",
+        "f2f3",
+        "c8e6",
+        "b2b3",
+        "f6d7",
+        "e1c1",
+        "d7c5",
+        "a4b2",
+        "e8g8",
+        "d1e1",
+        "a7a5",
+        "c1c2"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/8/2b5/3BP3/8/PPP2PPP/RN1QKB1R b KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": -44
+      },
+      "pv": [
+        "c5d4",
+        "d1d4",
+        "d8f6",
+        "e4e5",
+        "f6b6",
+        "d4b6",
+        "a7b6",
+        "f2f4",
+        "c7c6",
+        "b1d2",
+        "d7d5",
+        "e5d6",
+        "g8f6",
+        "a2a3",
+        "b6b5",
+        "c2c4",
+        "b5c4",
+        "f1c4",
+        "e8g8",
+        "d2f3",
+        "c8g4",
+        "f3e5",
+        "a8d8",
+        "h2h3",
+        "g4e6",
+        "c4e6",
+        "f7e6",
+        "e1c1",
+        "f6d5",
+        "g2g3",
+        "d8d6",
+        "h1e1",
+        "f8e8",
+        "e1e3",
+        "h7h6",
+        "e3b3",
+        "e8e7",
+        "b3d3"
+      ]
+    },
+    "r1bqk1nr/pppp1ppp/8/2b5/3nP3/4B3/PPP2PPP/RN1QKB1R w KQkq -": {
+      "depth": 22,
+      "score": {
+        "cp": 43
+      },
+      "pv": [
+        "e3d4",
+        "c5d4",
+        "d1d4",
+        "d8f6",
+        "e4e5",
+        "f6b6",
+        "d4b6",
+        "a7b6",
+        "b1d2",
+        "g8e7",
+        "f1d3",
+        "e8g8",
+        "e1g1",
+        "f8d8",
+        "d2e4",
+        "g8f8",
+        "f2f4",
+        "h7h6",
+        "a2a3",
+        "d7d5",
+        "e5d6",
+        "c7d6"
+      ]
+    }
+  }
+}
