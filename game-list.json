@@ -1,5 +1,0 @@
----
-# GitHub Pages fills this in on every build: the names of the .json files in the games folder.
-layout: null
----
-{% assign dir = page.dir | append: "games/" %}{% assign first = true %}[{% for file in site.static_files %}{% assign head = file.path | slice: 0, dir.size %}{% assign rest = file.path | remove_first: dir %}{% if head == dir and file.extname == ".json" %}{% unless rest contains "/" %}{% unless first %},{% endunless %}{{ file.name | jsonify }}{% assign first = false %}{% endunless %}{% endif %}{% endfor %}]
